@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #80808029;
+    font-family: 'Raleway', sans-serif;
+}
+
+.limitar {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.topo {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+}
+
+.topo img {
+    width: 32px;
+    height: 32px;
+}
+
+.topo h1 {
+    font-size: 24px;
+    color: #5d15d1;
+    margin-left: 10px;
+}
+
+.fundo {
+    width: 100%;
+    height: auto;
+    background-image: url("../imagens/bahia.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+form {
+    width: 100%;
+    height: auto;
+}
+
+form .topo-form {
+    background-color: #5d15d1;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form .topo-form p {
+    color: #fff;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+form .topo-form img {
+    width: 20px;
+    height: 20px;
+    rotate: -45deg;
+}
+
+.corpo-form {
+    width: 100%;
+    padding: 30px 25px 20px 25px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.form1 h2 {
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+
+label {
+    font-size: 16px;
+}
+
+.form1 input,
+.form2 input,
+.form2 select {
+    width: 100%;
+    height: 32px;
+    margin: 10px 0;
+    padding: 0 5px;
+}
+
+.duplas {
+    display: flex;
+
+}
+
+.form2 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.datas {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.datas div {
+    width: calc(50% - 10px);
+}
+
+.locais {
+
+    display: flex;
+    gap: 20px;
+
+}
+
+.opcoes {
+    width: calc(50% - 10px);
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.radio,
+.check {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.radio-escolha,
+.check-escolha {
+    display: flex;
+    justify-content: flex-start;
+    gap: 60px;
+}
+
+.check-escolha div,
+.radio-escolha div {
+    width: 120px;
+
+}
+
+.check-escolha div input,
+.radio-escolha div input {
+    width: 15px;
+}
+
+form button {
+    width: 160px;
+    height: 32px;
+    border: none;
+    font-size: 16px;
+    background-color: #5d15d1;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.conteudo {
+    width: 100%;
+    height: auto;
+    margin: 32px auto 0 auto;
+}
+
+.conteudo h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.conteudo p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.dupla {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards {
+    width: 100%;
+    height: 375px;
+
+}
+
+.card1 {
+    width: calc(50% - 10px);
+    height: 100%;
+    position: relative;
+}
+
+.card1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.card1 figure figcaption {
+    position: absolute;
+    bottom: 0;
+}
+
+.card2 {
+    width: calc(50% - 10px);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.card2 figure {
+    position: relative;
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+    margin: 0 6px;
+}
+
+figcaption {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgb(0 0 0 / 50%);
+    font-size: 17px;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.fotos-viagem {
+    width: 100%;
+    height: auto;
+}
+
+.legenda {
+    width: 100%;
+    padding: 20px 20px 2px 20px;
+    background-color: #fff;
+}
+
+.legenda h4 {
+    font-size: 16px;
+}
+
+.legenda p {
+    margin-top: 15px;
+    color: grey;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #5d15d1;
+    width: 100%;
+    margin-top: 32px;
+}
+
+.rodape .duplas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contato,
+.redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 15px 0;
+}
+
+.contato .dupla,
+.redes .dupla {
+    margin: 5px 0;
+}
+
+footer h4 {
+    margin-bottom: 10px;
+}
+
+footer .logo {
+    width: 18px;
+}
+
+footer span {
+    color: #fff;
+    font-size: 14px;
+    margin-left: 10px;
+}

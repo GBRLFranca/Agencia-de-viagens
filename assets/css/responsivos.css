@@ -1,0 +1,84 @@
+/* Telas até 1100px de resolução */
+
+@media (max-width: 1100px) {
+    .limitar {
+        width: 90%;
+    }
+}
+
+/* Telas de até 768px de resolução */
+
+@media (max-width: 768px) {
+    form button {
+        width: 100%;
+    }
+
+    .cards {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards .card2 {
+        width: 100%;
+    }
+
+    .cards figure {
+        width: 100%;
+        margin-top: 15px;
+        height: 225px;
+    }
+
+    .card1 img {
+        object-fit: cover;
+    }
+
+    .fotos-viagem {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fotos-viagem figure {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .rodape .duplas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .rodape .contato {
+        width: 300px;
+    }
+
+    .rodape .redes {
+        width: 300px;
+    }
+}
+
+
+/* Telas de até 540px de resolução */
+
+@media (max-width: 540px) {
+
+    .form2 .datas,
+    .form2 .locais,
+    .form2 .locais .opcoes,
+    .check .check-escolha,
+    .radio .radio-escolha {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form2 .datas div,
+    .form2 .locais .opcoes,
+    .check .check-escolha input,
+    .radio .radio-escolha input {
+        width: 100%;
+    }
+
+}
